@@ -1,0 +1,5 @@
+dist
+_.generated._
+pnpm-lock.yaml
+package-lock.json
+README.md

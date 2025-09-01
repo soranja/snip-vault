@@ -1,0 +1,7 @@
+{
+  "name": "@snip-vault/react-ui",
+  "version": "0.1.0",
+  "peerDependencies": { "react": "^18", "react-dom": "^18" },
+  "dependencies": { "@snip-vault/core": "workspace:*" },
+  "scripts": { "build": "tsup src/index.ts --dts --format esm" }
+}

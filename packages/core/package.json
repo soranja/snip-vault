@@ -1,0 +1,10 @@
+{
+  "name": "@snip-vault/core",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs",
+    "precompute": "tsx src/build-manifest.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "devDependencies": { "shiki": "^1.22.0", "tsx": "^4.0.0" }
+}
