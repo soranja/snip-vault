@@ -1,15 +1,21 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "strict": true,
+    "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "jsx": "react-jsx",
-    "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "declaration": true
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "baseUrl": ".",
+    "paths": {
+      "@snip-vault/core": ["packages/core/src"],
+      "@snip-vault/react-ui": ["packages/react-ui/src"]
+    }
   }
 }
